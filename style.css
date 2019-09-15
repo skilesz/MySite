@@ -1,0 +1,11 @@
+@import url(https://fonts.googleapis.com/css?family=Aldrich|Raleway&display=swap);
+
+/*---Main Text Standards---*/
+body {
+  font-family: 'Aldrich', sans-serif;
+  background-color: #d9d9d9
+}
+
+#slides {
+  background-color: black;
+}
