@@ -60,7 +60,42 @@ html, body {
 .fa-css3 {
   color: #2163af
 }
-.fa-code, .fa-bold, .fa-css3 {
+.fa-java {
+  color: #b30000;
+}
+.fa-cuttlefish {
+  color: #009933;
+}
+.fa-laptop-code {
+  color: #ff3300;
+}
+.fa-vimeo-v {
+  color: #00ffcc;
+}
+.fa-goodreads-g {
+  color: #9933ff;
+}
+.fa-linux {
+  color: #ffcc00;
+}
+.fa-users {
+  color: #000066;
+}
+.fa-folder-open {
+  color: #669999;
+}
+.fa-project-diagram {
+  color: #cc0066;
+}
+.fa-cuttlefish, .fa-java, .fa-code, .fa-bold, .fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+.fa-linux, .fa-goodreads-g, .fa-laptop-code, .fa-vimeo-v {
+  font-size: 4em;
+  margin: 1rem;
+}
+.fa-users, .fa-folder-open, .fa-project-diagram {
   font-size: 4em;
   margin: 1rem;
 }
