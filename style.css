@@ -9,6 +9,7 @@ html, body {
   background-color:#c2c1be
 }
 
+/*---Navbar and Carousel---*/
 .navbar {
   padding: 0.8rem;
 }
@@ -51,32 +52,34 @@ html, body {
 .aboutMe {
   padding-top: 2rem;
 }
+
+/*---Icons and Colors---*/
 .fa-code {
-  color: #e54d26
+  color: #7D8CC4;
 }
 .fa-bold {
-  color: #563d7c
+  color: #7D8CC4;
 }
 .fa-css3 {
-  color: #2163af
+  color: #7D8CC4;
 }
 .fa-java {
-  color: #b30000;
+  color: #7D8CC4;
 }
 .fa-cuttlefish {
-  color: #009933;
+  color: #7D8CC4;
 }
 .fa-laptop-code {
-  color: #ff3300;
+  color: #FE621D;
 }
 .fa-vimeo-v {
-  color: #00ffcc;
+  color: #FE621D;
 }
 .fa-goodreads-g {
-  color: #9933ff;
+  color: #FE621D;
 }
 .fa-linux {
-  color: #ffcc00;
+  color: #FE621D;
 }
 .fa-users {
   color: #000066;
@@ -112,9 +115,14 @@ html, body {
 .fa-linkedin {
   color:  #007bb5;
 }
-.fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover {
+.fa-github {
+  color: #ff9933;
+}
+.fa-github:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin:hover {
   color: black;
 }
+
+/*---Footer---*/
 footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
@@ -135,14 +143,19 @@ hr.light {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
+
 /*--- Fixed Background Image --*/
 #fixed {
-  background-image: url(images/FixedBack.jpg);
+  background-image: url(images/Skyline1.jpg);
   background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 400px;
   margin-top: 0px;
-  magrin-bottom: 8px;
+  margin-bottom: 8px;
 }
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
