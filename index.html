@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
 
-  <body>
+  <body id="fixed-homepage">
 
     <!-- Navigation Bar (title bar at top of screen) -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
@@ -32,13 +32,13 @@
                     <a class="nav-link" href="aboutMe.html">ABOUT ME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">JOB EXPERIENCE</a>
+                    <a class="nav-link" href="jobs.html">JOB EXPERIENCE</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">PROJECTS</a>
+                    <a class="nav-link" href="projects.html">PROJECTS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">RESUME</a>
+                    <a class="nav-link" href="resume.html">RESUME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="skills.html">SKILLS</a>
@@ -51,8 +51,8 @@
       </div>  
     </nav>
 
-    <!-- Slideshow -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
+   <!--
+    <div id="slides" class="carousel slide col-sm-12 col-md-7" data-ride="carousel">
       <ul class="carousel-indicators">
         <li data-target="#slides" data-slide-to="0" class="active"></li>
         <li data-target="#slides" data-slide-to="1"></li>
@@ -72,17 +72,66 @@
             </div>
         </div>
         <div class="carousel-item">
-          <img class="d-block w-100 mx-auto" src="images/Forest.jpg">
+          <img class="d-block rounded w-100 mx-auto" src="images/Forest.jpg">
           <div class="carousel-caption">
               <h3>Forest by My House</h3>
             </div>
         </div>
       </div>
+    </div> -->
+
+    <div id="fixed-homepage" style="height: 100%">
+
+      <!-- Welcome Title -->
+      <div class="container-fluid padding" id="regular">
+        <div class="row welcome text-center">
+          <div class="col-12">
+            <h3>"Don't give up. Ever." - ME</h3>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Current Book/Netflix Segment -->
+
     </div>
 
-    <!-- Current Book/Netflix Segment -->
-
     <!-- Footer -->
+    <hr class="my-4">
+    <div id="footer">
+
+      <div class="container-fluid padding">
+        <div class="row text-center padding">
+          <div class="col-12">
+            <h2>CONNECT</h2>
+          </div>
+          <div class="col-12 social">
+            <a href="https://twitter.com/zmanskiles7"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/zmanskiles7/?hl=en"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/zachary-skiles-10a312170"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/skilesz"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container-fluid padding">
+          <div class="row text-center">
+            <div class="col-md-6">
+              <h3>CONTACT ME</h3>
+              <hr class="light">
+              <p>EMAIL: SKILESZ@PURDUE.EDU</p>
+              <p>PHONE: (317) 450-4236</p>
+            </div>
+            <div class="col-md-6">
+              <h3>MAILING</h3>
+              <hr class="light">
+              <p>1016 W. STADIUM AVE.</p>
+              <p>WEST LAFAYETTE, IN 47906</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
 
   </body>
 
