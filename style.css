@@ -6,7 +6,7 @@ html, body {
   width: 100%;
   font-family: 'Aldrich', sans-serif;
   color: #222;
-  background-color:#c2c1be
+  background-color:#d5d5d5;
 }
 
 /*---Navbar and Carousel---*/
@@ -133,6 +133,12 @@ footer {
 }
 hr.light {
   border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+hr.dark {
+  border-top: 1px solid #3f3f3f;
   width: 75%;
   margin-top: 0.8rem;
   margin-bottom: 1rem;
