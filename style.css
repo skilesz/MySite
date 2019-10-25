@@ -8,6 +8,22 @@ html, body {
   color: #222;
   background-color:#d5d5d5;
 }
+.resume {
+  color: inherit;
+}
+.resume:hover {
+  color: black;
+}
+.btn {
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  border-color: #d5d5d5;
+  color: #d5d5d5;
+  white-space: normal;
+  text-overflow: inherit;
+  border: none;
+}
 
 /*---Navbar and Carousel---*/
 .navbar {
