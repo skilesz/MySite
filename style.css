@@ -18,11 +18,17 @@ html, body {
   width: 100%;
   position: absolute;
   background-color: transparent;
-  border-color: #d5d5d5;
+  border-color: transparent;
   color: #d5d5d5;
   white-space: normal;
   text-overflow: inherit;
-  border: none;
+  left: 0px;
+}
+.btn:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  text-emphasis: em;
 }
 
 /*---Navbar and Carousel---*/
